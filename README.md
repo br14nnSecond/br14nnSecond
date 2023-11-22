@@ -1,16 +1,20 @@
-### Hi there 👋
+# My NextJS/ReactJS Initial Setup
+### TailwindCSS Prettier
+Install the prettier plugin for tailwindCSS
+```shell
+npm install -D prettier prettier-plugin-tailwindcss
+```
+Create a prettier.config.js file
+```javascript
+// prettier.config.js
+module.exports = {
+  plugins: ['prettier-plugin-tailwindcss'],
+}
+```
 
-<!--
-**br14nnSecond/br14nnSecond** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Additional Libraries
+This library installations consists of creating reusable components in React/Next and extra essential libraries.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```shell
+npm i class-variance-authority tailwind-merge clsx nanoid react-icons
+```
